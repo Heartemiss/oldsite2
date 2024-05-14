@@ -1,0 +1,40 @@
+.about {
+    padding-right: 13vw;
+}
+
+.uwu {
+    height: 600px;
+    width: 600px;
+    background-image: url("images/uwu.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.uwu:hover {
+    background-image: url("images/owo.png");
+}
+
+.about p, span {
+    font-family: 'Cardo';
+}
+
+.about a {
+    color: #689C44;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.flavor {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.section {
+    flex-wrap: nowrap;
+}

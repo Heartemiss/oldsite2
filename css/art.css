@@ -1,0 +1,45 @@
+.container {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.orbit {
+    background-image: url("images/portfolio/orbit.png");
+}
+
+.bridge {
+    background-image: url("images/portfolio/bridge.png");
+}
+
+.jupiter {
+    background-image: url("images/portfolio/jupiter.png");
+    margin-top: 10vh;
+}
+
+.moon {
+    background-image: url("images/portfolio/moon.png");
+    margin-top: 10vh;
+}
+
+.circle {
+    background-image: url("images/portfolio/circle.png");
+    margin-top: 10vh;
+}
+
+.monolith {
+    background-image: url("images/portfolio/monolith.png");
+    margin-top: 10vh;
+}
+
+.forest {
+    background-image: url("images/portfolio/forest.png");
+    margin-top: 10vh;
+}
+
+.tsuki {
+    background-image: url("images/portfolio/tsuki.png");
+    margin-top: 10vh;
+}
+
+.tsuki {
+    background-image: url("images/portfolio/tsuki.png");
+}

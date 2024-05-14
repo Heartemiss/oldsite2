@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48.83px;
+}
+
+.container {
+    position: absolute;
+    overflow: hidden;    
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.item {
+    transition: transform .15s ease;
+}
+
+.item:hover {
+    transform: scale(1.025);
+    transition: transform .15s ease;
+}
+
+.layers {
+    position: absolute;
+    overflow: hidden;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+}
+.layer {
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
+body {
+    background-color:#FFF4B2;
+    overflow: hidden;
+  }
+
+.nav {
+    position: fixed;
+    top: 5vh;
+    transition: top 0.3s;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 3vw;
+}
+
+li {
+    display: inline;
+    padding-right: 1vw;
+    z-index: 100;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+footer ul {
+    position: absolute;
+}
+
+footer p {
+    float: right;
+    padding-right: 3vw;
+    padding-bottom: 5vh;
+}

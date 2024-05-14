@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Permanent Marker';
+}
+
+.brand {
+    height: 400px;
+    width: 400px;
+    background-image: url("images/awkwords/awk1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #689C44;
+}
+
+.imageset {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+}
+
+img {
+    height: 600px;
+    width: 600px;
+}
+
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}

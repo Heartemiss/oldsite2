@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.item {
+    height: 600px;
+    width: 600px;
+
+    display: block;
+    z-index: 90;
+
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.design {
+    background-image: url("images/portfolio/bridge.png");
+}
+
+.art {
+    background-image: url("images/portfolio/orbit.png");
+}
+
+.box {
+    height: 90px;
+    width: 400px;
+    margin-left: -100px;
+    margin-bottom: 50px;
+    background-color: #689C44;
+
+    display: block;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+}

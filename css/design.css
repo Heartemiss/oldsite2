@@ -1,0 +1,17 @@
+.container {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.site {
+    background-image: url("images/portfolio/kaiju.png");
+}
+
+.awkwords {
+    background-image: url("images/portfolio/tsuki.png");
+}
+
+.skilltree {
+    background-image: url("images/portfolio/forest.png");
+    margin-top: 15vh;
+}
